@@ -1,0 +1,53 @@
+:root{
+    --first-color: #d3dce9;
+    --second-color: #fff;
+    --third-color: #f5f8fb;
+    --fourth-color: #4d5661;
+  }
+  .qcontainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--first-color);
+  }
+ 
+  .btn-group{
+    display:flex;
+    align-items: center;
+    background-color: var(--second-color);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--third-color);
+    transition: border 0.3s ease;
+  }
+ 
+  .btn-group:hover{
+    border: 1px solid var(--fourth-color);
+  }
+ 
+  .increment-btn, .decrement-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fourth-color);
+    background-color: var(--second-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+ 
+  button:hover{
+    background-color: var(--first-color);
+  }
+ 
+  .pcount{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--third-color);
+    border-right: 1px solid var(--third-color);
+  }
